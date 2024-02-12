@@ -322,7 +322,7 @@ def unwrap(
     ntiles: tuple[int, int] = (1, 1),
     tile_overlap: int | tuple[int, int] = 0,
     nproc: int = 1,
-    tile_cost_thresh: int = 500,
+    tile_cost_thresh: int = 300,
     min_region_size: int = 100,
     regrow_conncomps: bool = True,
     scratchdir: str | os.PathLike[str] | None = None,
